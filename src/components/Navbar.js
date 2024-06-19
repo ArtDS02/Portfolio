@@ -3,13 +3,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import Git from "../Assets/git.png"
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillGithub
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -96,8 +94,8 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                {/* <ImBlog style={{ marginBottom: "2px" }} /> Git */}
-                <img src={Git} style={{ marginBottom: "4px" }}  alt="brand" /> Git
+                <AiFillGithub style={{ marginBottom: "2px" }} /> Git
+                {/* <img src={Git} style={{ marginBottom: "4px" }}  alt="brand" /> Git */}
               </Nav.Link>
             </Nav.Item>
           </Nav>
